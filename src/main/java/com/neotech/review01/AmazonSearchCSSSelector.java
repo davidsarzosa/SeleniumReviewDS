@@ -31,19 +31,12 @@ public class AmazonSearchCSSSelector {
 //		 *
 
 		/*
-		 * YOU MAY HAVE SOMETHING LIKE THIS 
+		 * YOU MAY HAVE SOMETHING LIKE THIS
 		 * 
-		 * span< open 
-		 * div < open 
-		 * div /> close 
-		 * span/> span close 
+		 * span< open div < open div /> close span/> span close
 		 * 
 		 */
-		
-		
-		
-		
-		
+
 		WebElement searchBox = driver.findElement(By.cssSelector("input#twotabsearchtextbox"));
 		searchBox.sendKeys("deck lights");
 		Thread.sleep(3000);
